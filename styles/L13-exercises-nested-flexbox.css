@@ -1,0 +1,67 @@
+ /* lesson 13- exercise with nested flexbox */
+ body{
+  padding-bottom: 500px;
+  font-family: roboto,arial, sans-serif;
+  background-color: black;
+  color: white;
+ }
+ p{
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+ .two-column-flexbox{
+  display: flex;
+  /* align-items: top; */
+ }
+ .parag-description{
+  font-size: 20px;
+  font-weight: normal;
+  margin-right: 10px;
+  line-height: 24px;
+ }
+ .main-design-content, .main-design{
+  display: flex;
+  width: 500px;
+  background-color: rgb(219, 219, 219);
+  padding: 8px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 35px;
+ }
+ .main-design{
+  align-items: stretch;
+ }
+ .left-col{
+  background-color: #ffb6c1;
+  padding: 35px 65px;
+  width: 100px;
+ }
+ .item1-parag{
+  font-size: 22px;
+  background-color:rgb(0, 0, 0);
+  color: #ffffff;
+  display: inline-block;
+  margin-left: 15px;
+ }
+ .righ-col{
+  background-color: rgb(173, 216, 230);
+  flex: 1;
+  height:95px;
+  width: 200px;
+ }
+
+ /* 13b */
+ .row1-parag{
+  font-size: 22px;
+  display:block;
+  color: black;
+ }
+.row2-flex-con{
+  display: flex;
+  justify-content: space-between;
+}
+.row2-parag{
+  font-size: 22px;
+  background-color: black;
+  color: white;
+}

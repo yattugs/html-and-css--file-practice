@@ -1,0 +1,139 @@
+/* this is lesson 9 challenge exercises */
+/* this is the start */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 9e */
+.putting-div-exercise-7g{
+    width:550px;
+    border-width: none;
+    box-shadow: -1px 1px 15px rgba(128, 128, 128, 0.521);
+    border-radius: 10px;
+    padding: 15px;
+}
+.img-icon{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: 0% 100%;
+    border-radius: 300px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.text-box{
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    vertical-align: middle;
+}
+.button-tweet{
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    border: none;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+/* 9f */
+.thumbnail-9f-solo{
+    border: 1px solid grey;
+    width: 250px;
+    border: none;
+    box-shadow: -2px 2px 15px rgba(128, 128, 128, 0.773);
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.portrait-9f-thumbnail{
+    width: 250px;
+    height: 300px;
+    object-fit: none;
+    object-position: 50% 70%;
+}
+.thumbnail-name{
+    font-size: 28px;
+    font-weight: bolder;
+    margin: 5px 10px;
+}
+.thumbnail-mutual-friend{
+    color: grey;
+    font-size: 14pxpx;
+    font-weight: bolder;
+    margin: 0px 10px 10px; /*top,left-right,bottom*/ 
+}
+.add-friend-button{
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 255, 0.801);
+    color: aliceblue;
+    margin: 5px 10px 10px;
+    padding: 10px 20px;
+    border: none;
+    
+}
+
+/* same style copy the "9f" */
+/* thumbnail images */
+.thumbnail-second{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+.thumbnail-third{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+/* 9h */
+/* components of content(google logo,search bar, buttons) */
+.google-logo{
+    width: 300px;
+    height: 150px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    object-fit: cover;
+    object-position: center; 
+}
+.textbox-shadow-no-border{
+    color: black;
+    font-size:18px;
+    padding:15px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128,0.8);
+    border-radius: 30px;
+    outline: 0px;
+    margin-bottom: 30px;
+}
+.google-buttons{
+    background-color: rgba(128, 128, 128, 0.151);
+    border:none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 20px;
+    margin: 0px 10px 30px;
+}
+/* backgound & color of text */
+.backgroud-9h{
+    background-color: black;
+    padding: 10px 50px;
+}
+.color-text-9h{
+    color: whitesmoke;
+}
+.background-content{
+    background-color: white;
+    padding: 10px 15px;
+}
+/* content of exercises 9h */
+.container-text-align-center{
+    text-align: center;
+}

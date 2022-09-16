@@ -1,0 +1,85 @@
+.title-paragraph{
+    font: 18px arial, sans-serif;
+}
+.font-tahoma{
+    color: black;
+    font-family: tahoma;
+    font-size: 28px;
+    font-weight:bolder;
+}
+/*5a*/
+.biggest-deal,.sales{
+    font-family:arial;
+}
+.biggest-deal{
+    font-size:32px;
+    font-weight:bolder;
+    line-height:18px;
+    margin-top: 0;
+    margin-bottom: 13px;
+}
+.sales{
+    color: rgba(255, 0,0,0.9);
+    font-size:22px;
+    font-weight: normal;
+    margin-top:0;
+    margin-bottom:0;
+}
+/*5c.*/
+.title{
+    color: black;
+    font-family: verdana;
+    font-size: 22px;
+    font-weight:bolder;
+    margin-top: 0;
+    margin-bottom: 5px;
+    
+}
+.sub-title{
+    color:rgb(112, 112, 112);
+    font-size:20px;
+    font-family: verdana;
+    margin-top: 0;
+    margin-bottom: 23px;
+
+}
+.description{
+    font-family: verdana;
+    color:black;
+    font-size: 14px;
+    width: 320px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.get-started-button{
+    background-color: green;
+    color:rgb(224, 224, 224);
+    font: 18px verdana;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*5d*/
+.title-shooping-business{
+    font-size:32px;
+    font-family: arial;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.paragraph-apple-work{
+    font-size: 18px;
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.learn-more-paragraph{
+    text-align: center;
+    color:blue;
+}

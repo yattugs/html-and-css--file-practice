@@ -1,0 +1,47 @@
+/* 15c */
+body{
+  height: 3000px;
+  font-family: roboto,Arial,sans-serif;
+}
+.box{
+  width:320px;
+  height: 180px;
+  background-color: grey;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index:1;
+  
+}
+.x-button{
+  font-size: 26px;
+  background-color: black;
+  border-radius:25px;
+  color: white;
+  padding: 6px 13px;
+  position:absolute;
+  top:-17px;
+  left: -15px;
+  z-index:1;
+}
+
+/* 15d */
+.box-15d{
+  width:320px;
+  height: 180px;
+  background-color: grey;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index:1;
+}
+.time-stamp{
+  background-color: black;
+  padding: 5px 10px;
+  font-size: 18px;
+  color:white;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}

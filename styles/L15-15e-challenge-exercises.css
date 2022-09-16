@@ -1,0 +1,55 @@
+/* 15e */
+body{
+  height: 3000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grid-con{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  column-gap: 15px;
+}
+.product-container{
+  position: relative;
+  /* display: inline-block; */
+}
+.item{ 
+  object-fit: cover;
+  object-position: top;
+  width: 300px;
+  /* height: 300px;  */
+}
+.sale{
+  font-size: 18px;
+  background-color: black;
+  padding: 8px 12px ;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right:0;
+}
+
+/* 15f */
+.overlay{
+  background-color: rgba(255, 255, 255, 0.555);
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+}
+.addtocart-button{
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding:10px 15px;
+  background-color: whitesmoke;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  /* i calculate the total position of add to cart button then device to to make it perfect center inside of overlay  */
+  top:28.5px;
+  left:88.4765px;
+  
+}
+

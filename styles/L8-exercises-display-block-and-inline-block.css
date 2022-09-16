@@ -1,0 +1,76 @@
+/* this is the exercise lesson 8- display block an inline-block elements */
+/* resetting the page default value */
+html,body{
+    margin: 10px;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+/* set the global element  */
+p,h1,h2, ul{ 
+    font-size: 18px;
+    font-family: arial;
+}
+
+.text-box-name, .text-box-email{
+    font-size: 18px;
+    padding: 3px;
+    border: 2px solid rgba(128, 128, 128, 0.500);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+/* note: button element is an block element */
+.submit-form-button{
+    font-weight: bold;
+    color: white;
+    background-color: grey;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border:none;
+    margin: 5px 0 ;
+}
+
+/* 8b */
+.description-parag-8b{
+    font-weight: normal;
+    font-family: 'times new roman';
+    width: 240px;
+    line-height: normal;
+    vertical-align: middle;
+    display: inline-block;
+}
+/* note the button element is inline-block element */
+.button-yes, .button-no{
+    font-size: 18px;
+    color: black;
+    font-weight: normal;
+    border: 2px solid rgba(128, 128, 128, 0.500);
+    border-radius: 5px;
+}
+
+/* 8c */
+/* google log is not properly centered, learn more later on video */
+.google-logo{
+    width: 300px;
+    height: 150px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    display: block;
+    margin-left:auto ;
+    margin-right:auto ;
+    object-fit: cover;
+  
+}
+.textbox-shadow-no-border{
+    color: black;
+    font-size:18px;
+    padding:15px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128,0.8);
+    border-radius: 20px;
+    margin: 5px auto;
+    display: block;
+    margin-bottom: 100px;
+}

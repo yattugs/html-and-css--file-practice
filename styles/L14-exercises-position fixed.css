@@ -1,0 +1,95 @@
+/* lesson 14 - fixed position */
+body{
+  color: white;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.all-content-con{
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  row-gap: 20px ;
+  justify-content: center;
+  
+}
+.title{
+  font-size: 36px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.descritption{
+  font-size: 26px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 32px;
+}
+/* 14a */
+.middle-row{
+  display:flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+  flex: 1;
+}
+.right-con-middle-row{
+  display: flex;
+  column-gap: 10px;
+}
+.canvas-14a{
+  background-color: white;
+  flex: 1;
+  width:400px;
+  height:200px;
+}
+.background-black-14a{
+  background-color: black;
+  font-size:24px ;
+  display: inline-block;
+  position: relative;
+  top: 140px;
+  left: 230px;
+}
+.simple-element-parag{
+  margin-top: -30px;
+  display: flex;
+  column-gap: 10px;
+  line-height: 25px;
+}
+.bottom-row{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  column-gap: 10px;
+}
+.canvas-14b{
+  width: 400px;
+  height: 200px;
+  background-color:white;
+  margin-right: 16px;
+  margin-right: 75px;
+}
+.background-green-14b{
+  font-size: 24px;
+  background-color: green;
+  position: relative;
+  left: 250px;
+  bottom: 100px;
+  top: 0px;
+  width: 150px;
+  height: 200px;
+}
+.flex-col-14c-des{
+  display: flex;
+  column-gap: 10px;
+  flex: 1;
+}

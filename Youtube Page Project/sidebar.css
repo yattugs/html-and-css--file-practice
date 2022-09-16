@@ -1,0 +1,39 @@
+.sidebar{
+  padding-top: 5px;
+  position: fixed;
+  top: 57px ;
+  bottom: 0;
+  left: 0;
+  z-index: 200;
+  background-color: white;
+}
+.sidebar-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 74px;
+  width: 72px;
+  cursor:pointer;
+  background-color: rgb(255, 255, 255);
+}
+.sidebar-link:hover{
+  background-color: #e2e2e2;
+}
+.icon-sidebar{
+  width: 24px;
+  height: 24px;
+}
+.icon-label{
+  font-size: 10px;
+}.notif-number{
+  background-color: rgb(161, 0, 0);
+  color: white;
+  font-size: 8px;
+  font-weight: 500;
+  padding: 2px 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 1px;
+  right: -1px;
+}

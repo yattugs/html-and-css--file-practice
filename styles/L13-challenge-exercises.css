@@ -1,0 +1,151 @@
+/* lesson 13 - challenge Exercises */
+/* ------------------------------ */
+/* general */
+body{
+  padding-bottom: 1000px;
+  font-family: arial,roboto,sans-serif;
+  padding: 20px 25px;
+  background-color: black;
+  color: white;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* class selector */
+.flex-2-col{
+  display: flex;
+  flex: 1;
+  column-gap: 35px;
+}
+/* left content */
+.title-parag{
+  color: rgb(255, 0, 0);
+  font-size: 38px;
+  margin-bottom: 15px;
+  font-weight:bold;
+}
+.description-parag{
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.main-canvas{
+  background-color: #ffffff;
+  padding: 15px 30px;
+  margin-bottom: 15px;
+  
+}
+.outline-con{
+  border: none;
+  box-shadow: 0px 2px 8px rgba(128, 128, 128, 0.219);
+  padding: 15px;
+  border-radius: 3px;
+}
+.parag-content{
+  color: grey;
+  font-size: 18px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 8px rgba(128, 128, 128, 0.219);
+  padding-bottom: 3px;
+}
+.profile-pic{
+  height: 60px;
+  width: 60px;
+  border: none;
+  border-radius: 30px;
+  object-fit: cover;
+  object-position: top;
+  box-shadow: 0px 1px 6px rgba(128, 128, 128, 0.219);
+}
+.flex-col-con{
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  box-shadow: 0px 1px 6px rgba(128, 128, 128, 0.219);
+}
+.left-img-con{
+  text-align: center;
+  width: 70px;
+  padding-top: 5px;
+  box-shadow: 0px 1px 6px rgba(128, 128, 128, 0.219);
+  
+}
+.right-parag-con{
+  flex: 1;
+  box-shadow: 0px 1px 6px rgba(128, 128, 128, 0.219);
+}
+.title-time-flex-con{
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  box-shadow: 0px 1px 6px rgba(128, 128, 128, 0.219);
+}
+.chevy-parag{
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  line-height: 22px;
+  margin-bottom: 8px;
+  padding-right: 100px;
+  box-shadow: 0px 1px 6px rgba(128, 128, 128, 0.219);
+}
+.time{
+  font-size: 16px;
+  color: gray;
+  padding: 3px 10px 25px 80px;
+  box-shadow: 0px 1px 6px rgba(128, 128, 128, 0.219);
+}
+/* right content */
+.right-con{
+  flex: 1;
+}
+.right-parag{
+  font-size: 26px;
+  text-align: center;
+  line-height: 34px;
+  margin-top: 55px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.main-canvas-13e{
+  color: black;
+  background-color: #ffffff;
+  padding: 15px 30px;
+}
+.three-row-container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.inside-container{
+  padding: 15px ;
+  box-shadow: 0px 1px 8px rgb(128 128 128 / 22%);
+}
+.message-parag{
+  color: grey;
+  font-size: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0px 1px 8px rgb(128 128 128 / 22%);
+  padding-bottom: 3px;
+}
+.content-inside-con{
+  padding: 15px ;
+  column-gap: 5px;
+  box-shadow: 0px 1px 8px rgb(128 128 128 / 22%);
+}
+.flex-container{
+  display: flex;
+  column-gap: 10px;
+}
+.right-inside-con{
+  box-shadow: 0px 1px 8px rgb(128 128 128 / 22%);
+  /* flex: 1; */
+}
+.parag{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+

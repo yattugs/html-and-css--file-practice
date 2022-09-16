@@ -1,0 +1,59 @@
+/* this is a lesson 9 exercises using <DIV> element */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* 9a */
+.red-square{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+/* 9b */
+.circle-green{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 100px;
+}
+/* 9c */
+.div-9c{
+  border-width: 2px;
+  border-style: solid;
+  width: 350px;
+  border-color:rgba(128, 128, 128, 0.801);
+  padding: 10px 20px;
+  margin-bottom: 40px;
+}
+.satisfaction-parag{
+  font: 18px arial, sans-serif;
+  font-weight: bold;
+}
+.buttons{
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  background-color: rgba(128, 128, 128, 0.233);
+  border-radius: 3px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+/* 9d */
+/* i can style the inside element of div element because it child element=inside of div
+and <div> element =  parents of child element  */
+.div-9d{
+  width: 500px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.849);
+  color: white;
+}
+.downlaod-youtbe-app{
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+}
+.app-description{
+  font-size: 18px;
+  width: 430px;
+  line-height: 22px;
+}

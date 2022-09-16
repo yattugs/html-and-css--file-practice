@@ -1,0 +1,72 @@
+/* lesson 10- Exercises */
+/* before 10a. */
+p{
+  font-family: roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.content{
+  border: 1px solid black;
+  width: 300px;
+  background-color: rgb(245, 245, 245);
+  padding: 10px;
+}
+.left-column, .right-column{
+  display:inline-block;
+  vertical-align: middle;
+}
+.left-column{
+  padding: 5px;
+}
+.profile-img{
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  object-position: 0% 105%;
+  border-radius: 50px;
+}
+.name{
+  font-size: 22px;
+  font-weight: bold;
+}
+.type-animal,.popularity{
+  color: rgb(96, 96, 96);
+  font-size:18px;
+  margin-top: 5px;
+}
+
+/* 10a. */
+.content-10a{
+  border: 1px solid black;
+  width: 400px;
+  background-color: rgb(245, 245, 245);
+  padding: 10px;
+}
+.column-1,.column-2,.column-3{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top:20px ;
+}
+.column-1{
+  margin-right: 15px;
+}
+.column-2{
+  margin-right: 30%;
+}
+.button{
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 255, 0.596);
+  color: white;
+  font-size: 22px;
+  font-weight: medium;
+  padding: 10px 15px;
+}
+
+/* 10b */
+.content-10b{
+  border: 1px solid black;
+  width: 400px;
+  background-color: rgb(245, 245, 245);
+  padding: 10px;
+}

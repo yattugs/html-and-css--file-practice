@@ -1,0 +1,33 @@
+/* lesson 12 - css flexbox */
+/* 12a */
+.flex-con-12a{
+  display: flex;
+}
+/* 12b */
+.flex-con-12b{
+  display: flex;
+}
+.item1-12b{
+  width: 50px;
+}
+.item2-12b{
+  flex: 1;
+}
+.item3-12b{
+  width: 75px;
+}
+/* 12c */
+.flex-con-12c{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
+/* 12d */
+.flex-con-12d{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  height: 100px;
+  align-items: center;
+}

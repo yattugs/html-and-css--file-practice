@@ -1,0 +1,65 @@
+/* set the page setup / adding background color */
+html,body{
+    background-color: #000000;
+    margin: 15px 50px;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+/* global font and color */
+h1, h2, p{
+    color: #f1f1f1;
+    font-family: arial;
+}
+/* start content */
+p.exercise-instruction{
+    font-size: 28px;
+    width: 900px;
+    line-height: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* 7a */
+p.exercise-7a{
+    font-size: 26px;
+    width:300px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+/* How to separate the container??? continue the 7a. */
+.img-7a{
+    width: 300px;
+    height: 200px;
+    object-fit:cover;
+    object-position: 0% 70%;
+    border-radius: 20px;
+}
+/* 7b */
+.exercise-7b{
+    font-size: 26px;
+    width: 230px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.img-7b{
+    width: 300px;
+    height: 200px;
+    border: 2px solid white;
+    object-fit:contain;
+
+}
+/* 7c */
+.exercise-7c{
+    font-size: 26px;
+    width: 230px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.img-7c{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0% 70%;
+    border-radius: 200px;
+}
+

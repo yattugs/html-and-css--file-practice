@@ -1,0 +1,120 @@
+html,body{
+    font-family: arial;
+    margin:20px;
+    padding: 0;
+    top: 0;
+    left:0;
+  }
+  .title{
+    color:red;
+    /* text-decoration: underline; */
+  }
+  /*5e*/
+  .new-parag{
+    color:orangered;
+    text-align: center;
+    margin-bottom: 8px;
+
+  }
+  .macbook-parag{
+    font-size: 22px;
+    font-weight:bold;
+    color:black;
+    text-align:center;
+    margin-top:0;
+    margin-bottom: 6px;
+  }
+  .supercharge-parag{
+    color: black;
+    font-size:32px;
+    font-weight: bolder;
+    text-align:center;
+    margin-top:0;
+    margin-bottom:10px;
+  }
+  .pricing-parag{
+    color:rgb(65, 65, 65);
+    text-align:center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top:0;
+    margin-bottom:16px;
+  }
+  .buy-button{
+    background-color: blue;
+    border: none;
+    border-radius:15px ;
+    padding: 8px 15px;
+    color:white;
+    font-size: small;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    opacity:0.8;
+    cursor: pointer;
+    display: block;
+  }
+  /*5f*/
+  .number-usd{
+    font-size: 34px;
+    font-weight:500;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .usd-parag{
+    color: grey;
+    font-weight: normal;
+    font-size: medium;
+    margin-top: 0;
+    margin-bottom:0;
+  }
+  .updated-stock{
+    color:green;
+    font-size: 16px;
+    margin-top:0;
+    margin-bottom:10px;
+  }
+  .hours-parag{
+    color:grey;
+    font-size: medium;
+    font-weight:normal;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .number-before-price{
+    color: red;
+  }
+  /*5g.*/
+  .title-bootcamp{
+    color: black;
+    font-size: 18px;
+    font-weight:bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .title-bootcamp-duration{
+    font-weight: normal;
+    color:grey;
+    margin: 0px 3px;
+  
+  }
+  .description-bootcamp-parag{
+    color:black;
+    width: 500px;
+    font-size:16px ;
+    line-height: 22px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .final-description-parag{
+    color:black;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 550px;
+  }
+  .metion-description-parag{
+    color:rgba(0, 0, 255, 0.8);
+  }

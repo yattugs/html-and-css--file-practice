@@ -1,0 +1,25 @@
+.col-grid-11a{
+  display: grid;
+  font-size: 22px;
+  grid-template-columns: 200px 75px;
+}
+/* 11b */
+.col-grid-11b{
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  font-size: 22px;
+}
+
+/* 11c. */
+.row-column{
+  background-color: pink;
+  font-size:22px;
+}
+.col-grid-11c{
+  background-color:rgb(122, 122, 122);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  padding: 15px;
+}

@@ -1,0 +1,125 @@
+    /*html page reset*/
+    hmtl,body{
+        margin: 30px;
+        padding: 0px;
+        top:0px;
+        left:0px;
+    }
+    /*4h.pagination-buttons*/
+    button.pagination-back-button{
+        border: 1px solid grey;
+        border-radius: 3px;
+        color:#000000;
+        font: 18px arial, serif;
+        font-weight:500;
+        padding:15px 13px;
+        margin-right:20px;
+    }
+    /*page-number-anchor*/
+    .page-number-link{
+        margin-left: 10px;
+        color:purple;
+        font-size:20px;
+    }
+    button.pagination-next-button{
+
+        margin-left:20px;
+        border: 1px solid grey;
+        border-radius: 3px;
+        color:#000000;
+        font: 18px arial, serif;
+        font-weight:500;
+        padding:15px 13px;
+        margin-right:20px;
+    }
+    /*stretch-button*/
+    .stretch-button{
+        background-color: green;
+        border: none;
+        color:white;
+        font-size: 18px;
+        font-weight:normal;
+        padding-top:10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        cursor:pointer;
+        transition: padding 0.15s;
+    }
+    .stretch-button:hover{
+        padding:20px 50px ;
+    }
+
+    /*3dclick-Shadow button*/
+    button.shadow-button{
+        border:none;
+        background-color: green;
+        color:#ffffff;
+        cursor:pointer;
+        font-size:25px;
+        font-weight: normal;
+        padding:10px 25px;
+        transition-property: transform;
+        
+    }
+    button.shadow-button:active{
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5) ;
+        transform: translate(-4px,-3px);
+    }
+
+    /*one-two-three-buttons*/
+   
+
+    .one-button{
+        background-color: green;
+        color:white;
+        border:none;
+        font-size:20px;
+        font-weight:normal;
+        margin:0px 10px;
+        padding:10px 25px;
+        cursor:pointer;
+        text-align: center;
+        transition: padding 0.15s, margin 0.15s;
+        
+    }
+    .one-button:hover{
+        padding:10px 50px;
+        margin:0px;
+    }
+
+    .two-button{
+        background-color: green;
+        color:white;
+        border:none;
+        font-size:20px;
+        font-weight:normal;
+        margin:0px 10px;
+        padding:10px 25px;
+        cursor:pointer;
+        text-align: center;
+        transition: padding 0.15s, margin 0.15s;
+        
+    }
+    .two-button:hover{
+        padding:10px 50px;
+        margin:0px;
+    }
+
+    .three-button{
+        background-color: green;
+        color:white;
+        border:none;
+        font-size:20px;
+        font-weight:normal;
+        margin:0px 10px;
+        padding:10px 10px;
+        cursor:pointer;
+        text-align: center;
+        transition: padding 0.15s, margin 0.15s;
+        
+    }
+    .three-button:hover{
+        padding:10px 50px;
+        margin:0px;
+    }
